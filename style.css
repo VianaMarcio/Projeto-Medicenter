@@ -131,3 +131,82 @@ nav .active a, nav a:hover{
     padding: 2px;
     border-bottom: 1px solid white;
 }
+
+#geral{
+    display: flex;
+    justify-content: center;
+}
+#geral section{
+    flex: 2;
+}
+#geral aside{
+    flex: 1;
+}
+.widget_title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.widget_title_text{
+    color: #000000;
+    font-size: 21px;
+    font-weight: bold;
+}
+.widget_title_bar{
+    width: 50px;
+    height: 2px;
+    background-color: #36a9e1;
+    margin-top: 10px;
+}
+.widget_body{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.widget_body1{
+    width: 150px;
+    height: 150px;
+    background-color:#0079c7;
+    margin-top:20px;
+    text-align: center;
+    
+}
+a{
+    font-weight: normal;
+    font-size:20px;
+    color:white;
+    text-decoration: none;
+    
+}
+.widget_body1:hover{
+    background-color:#2b4c99;
+    
+}
+.departamentos_text{
+    font-weight: normal;
+    font-size:20px;
+    margin-top:40%;
+}
+.marcar_text{
+    font-size: 20px;
+    font-weight: normal;
+    
+}
+.widget_contact{
+    display:flex;
+    align-items: flex-start;
+    text-align: center;
+    margin-top:20px;
+    flex-direction: column;
+    padding:10px;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    
+}
+.contact_img{
+    width: 20px;
+    height: 20px;    
+}
+a{
+    font-size:20px;
+}
