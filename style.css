@@ -1,3 +1,5 @@
+
+
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -509,3 +511,127 @@ footer .widget_lt a:hover{
     display: inline-block;
     width: 29px;
     height: 29px;
+}
+
+.menuMobile{
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+
+}
+
+.mm_line{
+    height: 3px;
+    background-color: #2b4c99;
+}
+
+@media (max-width:600px;){
+        .banner_headline h1{
+            font-size: 55px;
+            
+        }
+        .banner_headline h2{
+            font-size: 17px;
+            padding: 20px;            
+        }
+        .banner_options{
+            height: auto;
+            flex-direction: column;
+        }
+        .container{
+            flex-direction: column;
+        
+        }
+        #geral section, #geral aside{
+            padding: 20px;
+        }
+
+        .footer_menu{
+            flex-direction: column;
+        }
+        .footer_area{
+            flex-direction: column;
+            padding: 20px;
+        }
+
+        .footer_copy{
+            padding-left: 20px;
+        }
+        
+        header .container{
+            flex-direction: row;
+        }
+        nav ul{
+            flex-direction: column;
+            display: flex;
+        }
+        header{
+            height: auto;
+        }
+
+        .logo{
+            padding-left: 20px;
+        }
+        .menuMobile{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+}
+@media screen and (max-width: 900px){
+    .banner_headline{
+        font-size: 55px;
+    }
+    .banner_headline h2{
+        font-size: 17px;
+    }
+    .banner_options{
+        height: auto;
+        flex-direction: column;
+    }
+    
+    .container{
+        flex-direction: column;
+       
+    }
+    #geral .container{
+        margin-top: 100px;
+    }
+    #geral section,
+    #geral aside{
+        padding: 20px;
+    }
+    .banner_footer{
+        flex-direction: column;
+    }
+    .footer_area{
+        flex-direction: column;
+        margin-top: 250px;
+        padding: 20px;
+    }
+    header .container{
+        flex-direction: row;
+    }
+    header{
+        height: auto;
+    }
+    nav ul {
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        width: 100%;
+        background-color: #ffffff;
+    }
+    .logo{
+        padding-left: 20px;
+    }
+    .menuMobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-right: 40px;
+    }
+}
